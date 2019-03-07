@@ -5,5 +5,5 @@ wget https://raw.githubusercontent.com/qingfenghuohu/brook/master/restart.sh
 wget https://raw.githubusercontent.com/qingfenghuohu/brook/master/start.sh
 chmod +x brook restart.sh start.sh
 path=`pwd`
-sh ./start.sh
+sh ${path}/start.sh
 echo "sh ${path}/start.sh" >> /etc/rc.d/rc.local
